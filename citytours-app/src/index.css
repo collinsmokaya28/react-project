@@ -71,18 +71,14 @@ main {
   padding: 0.25rem 0.5rem;
   border-radius: var(--radius);
 }
-.nav {
+nav {
   background-color: orange;
   list-style-type: none;
   text-align: center; 
-  padding: 0;
-  margin: 0;
-}
-.topnav link {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
   padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+  margin: 20px;
+}
+.hero  {
+  display: flex !important;
+  justify-content: space-around;
 }
